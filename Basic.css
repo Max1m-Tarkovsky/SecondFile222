@@ -1,0 +1,113 @@
+head {
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+body {
+    background: hsla(90, 100%, 70%, 0.4);
+    color: hsla(1, 1%, 1%, 1);
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5; /*междустрочный интервал */
+    text-indent: 30px; /*абзац */
+    /*  background-image: url("1586072633_1.jpeg");*/
+    /*  background-position: left;
+      background-repeat: repeat;*/
+    padding: 20px;
+
+    margin: auto;
+    width: 80%;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+h1, h2, h3 {
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center
+}
+
+
+/*делает ссылку при наведении другим цветом */
+a:hover {
+    color: red;
+    border: 1px dashed #634f36;
+    background: #faf3d2;
+}
+
+a:visited {
+    color: darkslateblue;
+}
+
+.menu li {
+    display: inline;
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+@media (max-width: 700px) {
+    body {
+        text-align: center;
+        display: block;
+    }
+}
+
+.Visual_bottom a {
+    display: block;
+}
+
+.center_bottom {
+    text-align: center;
+}
+
+.Photo1 {
+    background: #faf3d2;
+    text-align: center;
+    padding: 20px ;
+    border: 10px solid red;
+    margin: 20px ;
+
+}
+button {
+    background: #CE242B; /* Красный фон */
+    color: #fff; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: .7rem 2rem; /* Поля вокруг текста */
+    box-shadow: 5px 5px 0 #000; /* Параметры тени */
+    position: relative; /* Относительное позиционирование */
+    left: 635px; /* Положение слева */
+    top: 0; /* Положение сверху */
+    transition: 1s; /* Время анимации */
+    height: 50px;
+
+
+
+}
+button:hover {
+    left: 630px; /* Положение слева */
+    top: 5px; /* Положение сверху */
+    box-shadow: 0 0 0 #000; /* Параметры тени */
+}
+.textfail{
+    width: 20%; /* Ширина поля */
+    padding: 10px; /* Поля */
+    box-sizing: border-box; /* Алгоритм расчёта ширины */
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.2); /* Тень внутри */
+    border: 1px solid #ccc; /* Параметры рамки */
+    color: black; /* Цвет текста */
+   margin-bottom: 20px;
+
+}
+
+.textfail1 label{
+    width: 100%;
+    box-sizing: border-box;
+}
